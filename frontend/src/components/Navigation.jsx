@@ -44,8 +44,8 @@ export const Navigation = () => {
           <div className="max-w-7xl mx-auto px-6 py-4">
             <div className="flex justify-between items-center">
               <div className="text-2xl font-bold">
-                <span className="text-white">ARTIST </span>
-                <span className="text-pink-500">NAME</span>
+                <span className="text-white">ANUSHA </span>
+                <span className="text-pink-500">JAWWAD</span>
               </div>
 
               {/* Desktop Menu */}
