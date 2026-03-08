@@ -103,60 +103,81 @@ export const PortfolioSection = () => {
         </div>
       </div>
 
-      {/* Modal for artwork details */}
-      {selectedArtwork && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-lg p-6 animate-fade-in"
-          onClick={() => setSelectedArtwork(null)}
-        >
-          <div
-            className="max-w-4xl w-full bg-purple-950/50 backdrop-blur-xl border border-pink-500/30 rounded-xl overflow-hidden"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="grid md:grid-cols-2">
-              <div className="relative h-96 md:h-auto">
-                <img
-                  src={selectedArtwork.image}
-                  alt={selectedArtwork.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="p-8">
-                <h3 className="text-3xl font-bold text-pink-500 mb-4">
-                  {selectedArtwork.title}
-                </h3>
-                <div className="h-px bg-gradient-to-r from-pink-500 to-transparent mb-4"></div>
-                <div className="mb-6">
-                  <p className="text-pink-300 font-semibold mb-2">THEME:</p>
-                  <p className="text-white/90">{selectedArtwork.theme}</p>
-                </div>
-                <div className="mb-6">
-                  <p className="text-pink-300 font-semibold mb-2">MEANING:</p>
-                  <p className="text-white/80 leading-relaxed">{selectedArtwork.description}</p>
-                </div>
-                {selectedArtwork.size && (
-                  <div className="mb-4">
-                    <p className="text-pink-300 font-semibold mb-1">SIZE:</p>
-                    <p className="text-white/80">{selectedArtwork.size}</p>
-                  </div>
-                )}
-                {selectedArtwork.medium && (
-                  <div className="mb-4">
-                    <p className="text-pink-300 font-semibold mb-1">MEDIUM:</p>
-                    <p className="text-white/80">{selectedArtwork.medium}</p>
-                  </div>
-                )}
-                <button
-                  onClick={() => setSelectedArtwork(null)}
-                  className="mt-6 px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white font-semibold rounded-lg transition-colors duration-300"
-                >
-                  Close
-                </button>
-              </div>
+    {/* Modal for artwork details */}
+{selectedArtwork && (
+  <div
+    className="fixed inset-0 z-50 bg-black/90 backdrop-blur-lg p-4 md:p-6 overflow-y-auto"
+    onClick={() => setSelectedArtwork(null)}
+  >
+    <div
+      className="min-h-full flex items-center justify-center"
+    >
+      <div
+        className="max-w-4xl w-full bg-purple-950/50 backdrop-blur-xl border border-pink-500/30 rounded-xl overflow-hidden max-h-[90vh] overflow-y-auto my-4"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="grid md:grid-cols-2">
+          <div className="relative h-64 sm:h-80 md:h-auto">
+            <img
+              src={selectedArtwork.image}
+              alt={selectedArtwork.title}
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          <div className="p-6 md:p-8 relative">
+            <button
+              onClick={() => setSelectedArtwork(null)}
+              className="absolute top-4 right-4 text-white text-2xl leading-none"
+            >
+              ×
+            </button>
+
+            <h3 className="text-2xl md:text-3xl font-bold text-pink-500 mb-4 pr-8">
+              {selectedArtwork.title}
+            </h3>
+
+            <div className="h-px bg-gradient-to-r from-pink-500 to-transparent mb-4"></div>
+
+            <div className="mb-6">
+              <p className="text-pink-300 font-semibold mb-2">THEME:</p>
+              <p className="text-white/90">{selectedArtwork.theme}</p>
             </div>
+
+            <div className="mb-6">
+              <p className="text-pink-300 font-semibold mb-2">MEANING:</p>
+              <p className="text-white/80 leading-relaxed">
+                {selectedArtwork.description}
+              </p>
+            </div>
+
+            {selectedArtwork.size && (
+              <div className="mb-4">
+                <p className="text-pink-300 font-semibold mb-1">SIZE:</p>
+                <p className="text-white/80">{selectedArtwork.size}</p>
+              </div>
+            )}
+
+            {selectedArtwork.medium && (
+              <div className="mb-4">
+                <p className="text-pink-300 font-semibold mb-1">MEDIUM:</p>
+                <p className="text-white/80">{selectedArtwork.medium}</p>
+              </div>
+            )}
+
+            <button
+              onClick={() => setSelectedArtwork(null)}
+              className="mt-6 px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white font-semibold rounded-lg transition-colors duration-300"
+            >
+              Close
+            </button>
           </div>
         </div>
-      )}
+      </div>
+    </div>
+  </div>
+)}
+      
     </section>
   );
 };
