@@ -1,6 +1,6 @@
 // Artist Portfolio Mock Data
 export const artistData = {
-  name: "AHJ",
+  name: "ahj",
   tagline: "Self-Taught Artist from Karachi, Pakkistan",
   subtitle: "Abstract with a touch of realism, but with a meaning",
   
