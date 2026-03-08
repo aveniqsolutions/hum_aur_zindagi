@@ -17,14 +17,14 @@ export const artistData = {
       title: "HEALING [THE BUTTERFLY EFFECT]",
       theme: "LET THE BUTTERFLY WINGS WIPE YOUR TEARS OF REGRET, RESENTMENT AND SADNESS",
       description: "Explores the theme of regret, sadness, and resentment. Uses butterflies as a metaphor for life's lessons, teaching to not take life too seriously, embrace freedom from sadness by accepting what's gone, focus on beauty rather than flaws, and trust the process of transformation. Aims to evoke an energy that reminds viewers to 'let it be' and free themselves from regret.",
-      image: "/artworks/artwork_1"
+      image: "/artworks/artwork_1.jpeg"
     },
     {
       id: 2,
       title: "THE END",
       theme: "The cyclical nature of life, with beginnings inevitably leading to endings",
       description: "All beginnings are destined to end. Beautiful spring flowers wither in winter. Snow melts, bright days turn to night, babies age into wrinkles, and flowers eventually become funeral arrangements. Everything moves in a cycle, ultimately leading to an end.",
-      image: "/artworks/artwork_17"
+      image: "/artworks/artwork_17.jpeg"
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ export const artistData = {
       title: "CHECKMATE TO ALL MY WORRIES",
       theme: "Life's strategic approach, including sacrifice and moving differently",
       description: "Draws parallels to chess, where winning requires more than just forward moves; sometimes backward moves or sacrificing pieces are necessary. The artwork encourages working silently and smartly to eventually become the 'real game.' The textured colors symbolize positivity and flow; dark colors represent passion, aggression, discipline, while light colors signify motivation, love, and perseverance.",
-      image: "/artworks/artwork_10"
+      image: "/artworks/artwork_10.jpeg"
     },
     {
       id: 6,
@@ -67,7 +67,7 @@ export const artistData = {
       title: "ANXIETY LA LA LAND",
       theme: "Can you define anxiety? What is anxiety for you?",
       description: "A deeply personal interpretation of anxiety. Describes it as a physical and mental state involving loss of feeling in extremities, intense heart palpitations, a mind like a dusty, dark, electric-less library that can transform into a chaotic disco club. Characterizes anxiety as an infinite emotional ride that leads to growth and evolution, albeit always heart-wrenching.",
-      image: "/artworks/artwork_4"
+      image: "/artworks/artwork_4.jpeg"
     },
     {
       id: 9,
