@@ -21,10 +21,10 @@ export const artistData = {
     },
     {
       id: 2,
-      title: "ANXIETY LA LA LAND",
-      theme: "Can you define anxiety? What is anxiety for you?",
-      description: "A deeply personal interpretation of anxiety. Describes it as a physical and mental state involving loss of feeling in extremities, intense heart palpitations, a mind like a dusty, dark, electric-less library that can transform into a chaotic disco club. Characterizes anxiety as an infinite emotional ride that leads to growth and evolution, albeit always heart-wrenching.",
-      image: "/artworks/artwork_4"
+      title: "THE END",
+      theme: "The cyclical nature of life, with beginnings inevitably leading to endings",
+      description: "All beginnings are destined to end. Beautiful spring flowers wither in winter. Snow melts, bright days turn to night, babies age into wrinkles, and flowers eventually become funeral arrangements. Everything moves in a cycle, ultimately leading to an end.",
+      image: "/artworks/artwork_17"
     },
     {
       id: 3,
@@ -64,10 +64,10 @@ export const artistData = {
     },
     {
       id: 8,
-      title: "THE END",
-      theme: "The cyclical nature of life, with beginnings inevitably leading to endings",
-      description: "All beginnings are destined to end. Beautiful spring flowers wither in winter. Snow melts, bright days turn to night, babies age into wrinkles, and flowers eventually become funeral arrangements. Everything moves in a cycle, ultimately leading to an end.",
-      image: "/artworks/artwork_17"
+      title: "ANXIETY LA LA LAND",
+      theme: "Can you define anxiety? What is anxiety for you?",
+      description: "A deeply personal interpretation of anxiety. Describes it as a physical and mental state involving loss of feeling in extremities, intense heart palpitations, a mind like a dusty, dark, electric-less library that can transform into a chaotic disco club. Characterizes anxiety as an infinite emotional ride that leads to growth and evolution, albeit always heart-wrenching.",
+      image: "/artworks/artwork_4"
     },
     {
       id: 9,
