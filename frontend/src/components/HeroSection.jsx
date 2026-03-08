@@ -43,8 +43,8 @@ export const HeroSection = () => {
           <span className="text-white block mb-4" style={{ fontFamily: 'Impact, sans-serif' }}>
             {artistData.name.split(' ')[0].toUpperCase()}
           </span>
-          <span className="text-pink-500 block paint-stroke" style={{ fontFamily: 'Impact, sans-serif' }}> <small>
-            {artistData.name.split(' ')[1].toUpperCase()}</small>
+          <span className="text-pink-500 block paint-stroke text-xs" style={{ fontFamily: 'Impact, sans-serif' }}>
+            {artistData.name.split(' ')[1].toUpperCase()}
           </span>
         </h1>
         
