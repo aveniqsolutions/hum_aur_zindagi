@@ -44,10 +44,6 @@ export const HeroSection = () => {
             {artistData.name.split(' ')[0].toUpperCase()}
           </span>
         </h1>
-        <h5 className="text-7xl md:text-9xl font-black mb-6 tracking-tight">
-          <span className="text-pink-500 block paint-stroke" style={{ fontFamily: 'Impact, sans-serif' }}>
-            {artistData.name.split(' ')[1].toUpperCase()}
-          </span></h5>
         
         <p className="text-xl md:text-2xl text-white/90 mb-4 font-light tracking-wide">
           {artistData.tagline}
