@@ -43,7 +43,7 @@ export const HeroSection = () => {
           <span className="text-white block mb-4" style={{ fontFamily: 'Impact, sans-serif' }}>
             {artistData.name.split(' ')[0].toUpperCase()}
           </span>
-          <span className="text-pink-500 block paint-stroke text-xs" style={{ fontFamily: 'Impact, sans-serif' }}>
+          <span className="text-pink-500 block paint-stroke text-sm" style={{ fontFamily: 'Impact, sans-serif' }}>
             {artistData.name.split(' ')[1].toUpperCase()}
           </span>
         </h1>
@@ -58,13 +58,6 @@ export const HeroSection = () => {
           </p>
           <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-pink-500 to-transparent"></div>
         </div>
-{/* 
-        {/* Scroll indicator *
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-pink-500 rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-pink-500 rounded-full mt-2"></div>
-          </div>
-        </div> */}
       </div>
 
       {/* Paint stroke divider */}
