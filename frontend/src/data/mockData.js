@@ -1,12 +1,12 @@
 // Artist Portfolio Mock Data
 export const artistData = {
-  name: "Anusha Jawwad",
-  tagline: "Self-Taught Artist from Karachi",
+  name: "AHJ",
+  tagline: "Self-Taught Artist from Karachi, Pakkistan",
   subtitle: "Abstract with a touch of realism, but with a meaning",
   
   bio: {
     image: "/artworks/artwork_0.jpeg",
-    text: "Hello I am Anusha Jawwad, self-taught artist from Karachi. I paint abstract with a touch of realism but with a meaning. Through my art I portray inspiring impactful messages or showcase an experience/story [e.g. childhood scars, mental health issues, questions towards life, psychological perspectives and etc.]. Every time I try to exhibit those feelings or the message on the canvas I want to make sure that my audience can also feel the emotions portrayed and connect with my art by learning something positive or meaningful.",
+    text: "Hello I am AHJ, self-taught artist who paints abstract with a touch of realism but with a meaning. Through my art I portray inspiring impactful messages or showcase an experience/story [e.g. childhood scars, mental health issues, questions towards life, psychological perspectives and etc.]. Every time I try to exhibit those feelings or the message on the canvas I want to make sure that my audience can also feel the emotions portrayed and connect with my art by learning something positive or meaningful.",
     quote: "Hi that's me smiling through all the obstacles :)",
     philosophy: "I believe degree is not necessary to become a successful artist. After graduating A-levels in psychology and business, I by choice opted to take the risk and be full time artist because I feel art schools teach their own learned methods and procedures and then one becomes conditioned to following others and looking for validation/approval from other people which makes you less confident when you enter the real world. I might be wrong but this is my perspective that for some people art schools may destroy their individual creativity and self-growth. So I took this risk to discover my own techniques and learn from my own mistakes while on this self-reflection journey. It's lonely and scary without the help of experienced mentors and a network that can pave your way to your destination but I am confident that I am learning and growing every day. My passion and hard work will definitely make me reach my goals as an Artist."
   },
@@ -17,14 +17,14 @@ export const artistData = {
       title: "HEALING [THE BUTTERFLY EFFECT]",
       theme: "LET THE BUTTERFLY WINGS WIPE YOUR TEARS OF REGRET, RESENTMENT AND SADNESS",
       description: "Explores the theme of regret, sadness, and resentment. Uses butterflies as a metaphor for life's lessons, teaching to not take life too seriously, embrace freedom from sadness by accepting what's gone, focus on beauty rather than flaws, and trust the process of transformation. Aims to evoke an energy that reminds viewers to 'let it be' and free themselves from regret.",
-      image: "/artworks/artwork_1.jpeg"
+      image: "/artworks/artwork_1"
     },
     {
       id: 2,
       title: "ANXIETY LA LA LAND",
       theme: "Can you define anxiety? What is anxiety for you?",
       description: "A deeply personal interpretation of anxiety. Describes it as a physical and mental state involving loss of feeling in extremities, intense heart palpitations, a mind like a dusty, dark, electric-less library that can transform into a chaotic disco club. Characterizes anxiety as an infinite emotional ride that leads to growth and evolution, albeit always heart-wrenching.",
-      image: "/artworks/artwork_4.jpeg"
+      image: "/artworks/artwork_4"
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ export const artistData = {
       title: "CHECKMATE TO ALL MY WORRIES",
       theme: "Life's strategic approach, including sacrifice and moving differently",
       description: "Draws parallels to chess, where winning requires more than just forward moves; sometimes backward moves or sacrificing pieces are necessary. The artwork encourages working silently and smartly to eventually become the 'real game.' The textured colors symbolize positivity and flow; dark colors represent passion, aggression, discipline, while light colors signify motivation, love, and perseverance.",
-      image: "/artworks/artwork_10.jpeg"
+      image: "/artworks/artwork_10"
     },
     {
       id: 6,
@@ -67,7 +67,7 @@ export const artistData = {
       title: "THE END",
       theme: "The cyclical nature of life, with beginnings inevitably leading to endings",
       description: "All beginnings are destined to end. Beautiful spring flowers wither in winter. Snow melts, bright days turn to night, babies age into wrinkles, and flowers eventually become funeral arrangements. Everything moves in a cycle, ultimately leading to an end.",
-      image: "/artworks/artwork_17.jpeg"
+      image: "/artworks/artwork_17"
     },
     {
       id: 9,
