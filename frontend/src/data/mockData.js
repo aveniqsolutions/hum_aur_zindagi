@@ -5,7 +5,7 @@ export const artistData = {
   subtitle: "Abstract with a touch of realism, but with a meaning",
   
   bio: {
-    image: "/artworks/artwork_0.jpeg",
+    image: "/artworks/artwork_0.jpg",
     text: "Hello I am AHJ, self-taught artist who paints abstract with a touch of realism but with a meaning. Through my art I portray inspiring impactful messages or showcase an experience/story [e.g. childhood scars, mental health issues, questions towards life, psychological perspectives and etc.]. Every time I try to exhibit those feelings or the message on the canvas I want to make sure that my audience can also feel the emotions portrayed and connect with my art by learning something positive or meaningful.",
     quote: "Hi that's me smiling through all the obstacles :)",
     philosophy: "I believe degree is not necessary to become a successful artist. After graduating A-levels in psychology and business, I by choice opted to take the risk and be full time artist because I feel art schools teach their own learned methods and procedures and then one becomes conditioned to following others and looking for validation/approval from other people which makes you less confident when you enter the real world. I might be wrong but this is my perspective that for some people art schools may destroy their individual creativity and self-growth. So I took this risk to discover my own techniques and learn from my own mistakes while on this self-reflection journey. It's lonely and scary without the help of experienced mentors and a network that can pave your way to your destination but I am confident that I am learning and growing every day. My passion and hard work will definitely make me reach my goals as an Artist."
