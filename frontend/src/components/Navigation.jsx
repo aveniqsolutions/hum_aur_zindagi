@@ -45,7 +45,7 @@ export const Navigation = () => {
             <div className="flex justify-between items-center">
               <div className="text-2xl font-bold">
                 <span className="text-white">Hum </span>
-                <span className="text-pink-500">Aur</span>
+                <span className="text-pink-500">Aur </span>
                 <span className="text-white">Zindagi </span>
               </div>
 
