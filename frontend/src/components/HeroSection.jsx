@@ -58,13 +58,13 @@ export const HeroSection = () => {
           </p>
           <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-pink-500 to-transparent"></div>
         </div>
-
-        {/* Scroll indicator */}
+{/* 
+        {/* Scroll indicator *
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="w-6 h-10 border-2 border-pink-500 rounded-full flex justify-center">
             <div className="w-1 h-3 bg-pink-500 rounded-full mt-2"></div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Paint stroke divider */}
