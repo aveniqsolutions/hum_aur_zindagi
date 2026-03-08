@@ -14,17 +14,18 @@ export const artistData = {
   artworks: [
     {
       id: 1,
-      title: "HEALING [THE BUTTERFLY EFFECT]",
-      theme: "LET THE BUTTERFLY WINGS WIPE YOUR TEARS OF REGRET, RESENTMENT AND SADNESS",
-      description: "Explores the theme of regret, sadness, and resentment. Uses butterflies as a metaphor for life's lessons, teaching to not take life too seriously, embrace freedom from sadness by accepting what's gone, focus on beauty rather than flaws, and trust the process of transformation. Aims to evoke an energy that reminds viewers to 'let it be' and free themselves from regret.",
+      title: "STORM GLIDER",
+      theme: "Through storms of struggle comes the courage to let go",
+      description: "The Grey stormy Weather with shades of Black and white represents Life struggles and problems where one gets stuck and there is no option but to endure because nothing is in our control at that time. Then there comes a Golden bird with dense wings out of nowhere ! It signifies of “letting Go”. It’s there to shine and remind us that sometimes in difficult times its best to Let Go as when it’s out of your hands, it deserves Freedom from our Mind too",
       image: "/artworks/artwork_1.jpeg"
     },
     {
       id: 2,
-      title: "THE END",
-      theme: "The cyclical nature of life, with beginnings inevitably leading to endings",
-      description: "All beginnings are destined to end. Beautiful spring flowers wither in winter. Snow melts, bright days turn to night, babies age into wrinkles, and flowers eventually become funeral arrangements. Everything moves in a cycle, ultimately leading to an end.",
-      image: "/artworks/artwork_17.jpeg"
+      title: "SAND TREASURES",
+      theme: "The hidden treasures and peaceful beauty of the Maldivian shores",
+      description: "A heavily textured artwork created using acrylics, real sand, and seashells, bringing the essence of the Maldivian shores directly onto the canvas. The natural materials add depth and authenticity, evoking the feeling of walking along a sunlit beach where tiny fragments of the ocean become hidden gems. Through layered textures and organic elements, the artwork captures the peaceful connection between land and sea, transforming simple coastal materials into a tactile expression of tropical beauty and serenity.",
+      image: "/artworks/artwork_17.jpeg",
+      medium: "Acrylics and heavy tecxtured"
     },
     {
       id: 3,
@@ -42,10 +43,12 @@ export const artistData = {
     },
     {
       id: 5,
-      title: "CHECKMATE TO ALL MY WORRIES",
-      theme: "Life's strategic approach, including sacrifice and moving differently",
-      description: "Draws parallels to chess, where winning requires more than just forward moves; sometimes backward moves or sacrificing pieces are necessary. The artwork encourages working silently and smartly to eventually become the 'real game.' The textured colors symbolize positivity and flow; dark colors represent passion, aggression, discipline, while light colors signify motivation, love, and perseverance.",
-      image: "/artworks/artwork_10.jpeg"
+      title: "SAGAR KI GEHRAI",
+      theme: "A silience that is calming like the depths of ocean",
+      description: "Captures the profound silence and tranquility found in the depths of the ocean. Through mixed media acrylics, the artwork reflects a soothing stillness that invites the viewer to pause, breathe, and immerse in the calm energy of deep waters. The flowing textures and layered tones mirror the mysterious beauty of the sea, reminding us that within depth and silence lies a powerful sense of peace and clarity.",
+      image: "/artworks/artwork_10.jpeg",
+      size: "6*4 ft",
+      medium: "Mix media acrylics"
     },
     {
       id: 6,
@@ -64,10 +67,12 @@ export const artistData = {
     },
     {
       id: 8,
-      title: "ANXIETY LA LA LAND",
-      theme: "Can you define anxiety? What is anxiety for you?",
-      description: "A deeply personal interpretation of anxiety. Describes it as a physical and mental state involving loss of feeling in extremities, intense heart palpitations, a mind like a dusty, dark, electric-less library that can transform into a chaotic disco club. Characterizes anxiety as an infinite emotional ride that leads to growth and evolution, albeit always heart-wrenching.",
-      image: "/artworks/artwork_4.jpeg"
+      title: "BETELGEUSE",
+      theme: "Orange/red star the 2nd brightest star in the constellation of Orion",
+      description: "Inspired by the fiery orange-red giant star Betelgeuse, the second brightest star in the constellation of Orion. The composition reflects the explosive, radiant energy and cosmic turbulence associated with stellar activity.",
+      image: "/artworks/artwork_4.jpeg",
+      size: "60*72 inch",
+      medium: "Acrylics painting"
     },
     {
       id: 9,
@@ -75,7 +80,7 @@ export const artistData = {
       theme: "Trusting in God's plan - Holding onto hope, believing in oneself",
       description: "Encourages holding the 'rope of Hope' to climb towards a magical world of dreams, achievable through belief and effort, where peace is attainable with a heart full of faith. Defines hope as belief and belief as faith. Uses fluffy clouds for dreams and magic. The rope represents hope towards a 'home in clouds' signifying peace, satisfaction, and faith.",
       image: "/artworks/artwork_19.jpeg",
-      size: "18*24",
+      size: "18*24 inch",
       medium: "Oil paints"
     },
     {
