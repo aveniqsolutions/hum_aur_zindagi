@@ -100,7 +100,7 @@ export const artistData = {
   ],
 
   contact: {
-    phone: "03322727633",
+    phone: "+92 347 1384062",
     email: "anushayahj@gmail.com",
     instagram: "hum_aur_zindagii",
     instagramDisplay: "@hum_aur_zindagii (AHJ)"
