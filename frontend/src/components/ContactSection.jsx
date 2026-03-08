@@ -135,10 +135,7 @@ export const ContactSection = () => {
         }`}>
           <div className="h-px bg-gradient-to-r from-transparent via-pink-500/50 to-transparent mb-8"></div>
           <p className="text-white/60 text-sm">
-            © 2025 {artistData.name}. All rights reserved.
-          </p>
-          <p className="text-white/40 text-xs mt-2">
-            Self-taught artist from Karachi | Creating art with meaning
+           © 2026 Hum Aur Zindagi. All rights reserved. | Website by <a href="https://aveniq-solutions.com">Aveniq Solutions</a>
           </p>
         </div>
       </div>
